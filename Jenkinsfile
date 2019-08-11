@@ -8,6 +8,6 @@ node()
         
     stage "Deploy Application"
         //sh 'rm /var/lib/tomcat/webapps/nvnshoppingcart*'
-        sh 'cp **/*.war /opt/PipeLine-as-code-example'
+        sh 'sudo cp **/*.war /opt/war_files/'
 }
 
